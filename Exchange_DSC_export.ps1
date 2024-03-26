@@ -4,8 +4,6 @@ $CertificateThumbprint = 'SOURCECERT'
 $TenantId = 'CUSTOMERTENANTNAME.onmicrosoft.com'
 
 
-#Connect-ExchangeOnline -Organization $TenantId -AppId $ApplicationId -CertificateThumbprint $CertificateThumbprint
-# Exporting resources using credentials
 $servicename = 'Exchange'
 $customer = 'CUSTOMERTENANTNAME'
 $filepath = 'C:\temp\CUSTOMERTENANTNAME'
